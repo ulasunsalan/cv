@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<!==dosya tipini gösterir==>
+  <html lang="en" dir="ltr">
+  <!==bu taglerin arasındaki kısım html dilinde demek bu==>
+
+    <head>
+      <!==bu kısım web sitesine yönelik bilgiyi ve bunun nasıl handle edilmesi gerektiğini söyler==>
+        <meta charset="utf-8">
+        <!==meta elementlar metadata sağlar html belgesine, diyoruz ki bu sayfa utf8 ile encode edilmiş, utf8 seç hep bunun dışında description eklenir, author eklenir, keyword, viewport vs eklenir. search engine'e de bilgi verir keyword girersen,
+          googel aramasında başlık altında çıkan yazı buradaki keyword oluyor==>
+          <title>Ulaş Ünsalan's Personal Website</title>
+    </head>
+
+    <body>
+      <!==sayfa içeriğini gösterir==>
+        <table cellspacing="20">
+          <tr>
+            <td><img src="https://www.tuncahukuk.com/media/1636/ulas-bey.jpg?anchor=center&mode=crop&width=640&heightratio=1&quality=90&slimmage=true&rnd=132964200440000000" alt=""></td>
+            <td>
+              <h1>Ulaş Ünsalan</h1>
+              <p><em>Attorney at Law, Head of Contracts and Intellectual Property at <a href="https://www.tuncahukuk.com/"><strong>Tunca Attorney Partnership</strong></a></em></p>
+              <!==p ile paragraf açıyoruz, em ile italik, i ile de italik olur ama em daha iyi çünkü daha genel b ile de bold ama bunun yerine strong kullan==>
+                <p>Ulas Unsalan is a qualified lawyer with extensive experience and specialty in contract law, intellectual property law, trademark litigation, commercial law, corporate governance, IT law and corporate law. Throughout his career as a
+                  legal
+                  professional, he had the honor of advising, representing and providing legal services to numerous prominent local and international clients. He is a native Turkish speaker with excellent command of written and spoken English. He is
+                  often
+                  praised for his effective, organized, efficient, pragmatic, analytical, punctual and result oriented work approach. He currently works as a <a href="https://www.linkedin.com/in/ulas-unsalan-5328563b/?originalSubdomain=tr">senior
+                    attorney
+                    and head of contracts and intellectual property departments at Tunca Attorney
+                    Partnership.</a></p>
+            </td>
+          </tr>
+
+        </table>
+
+
+        <hr size="1" noshade>
+        <h3>Education</h3>
+        <p>Mr. Ulaş Ünsalan is a graduate of the following educational institutions:</p>
+        <ul>
+          <!==ul unordered list oluyor li de list item==>
+            <li>Tevfik Fikret Elementary School</li>
+            <li>Tevfik Fikret High School</li>
+            <a href="http://bilnews.bilkent.edu.tr/archive/issue_17_5/faceoncampus.html">
+              <li>Bilkent Law School</li>
+            </a>
+            <!==a anchor oluyor link vs onunla ekliyoruz foto da==>
+              <li>Bilkent Institute of Economics and Social Sciences</li>
+              <li>Queen Mary University of London</li>
+              <li>Başkent University</li>
+        </ul>
+        <hr>
+        <h3>My Hobbies</h3>
+        <ol type="a">
+          <!==ol ordered list oluyor li de list item==>
+            <li>Digital Games</li>
+            <li>Tabletop RPGs</li>
+            <a href="https://davinciboardgame.com/">
+              <li>Boardgames</li>
+            </a>
+            <li>Travelling</li>
+            <li>Reading</li>
+            <li>Cinema and TV</li>
+        </ol>
+        <hr>
+        <h3>Work Experience</h3>
+
+        <table cellspacing="10">
+          <!==table ile tablo tr ile table row üretiyoruz her tr bir row td ile de table cell üretiyoruz thead table head oluyor tbody table body tfoot table foot th table header cell==>
+            <thead>
+              <tr>
+                <th>Dates</th>
+                <th>Work</th>
+              </tr>
+            </thead>
+            <tbody>
+
+            </tbody>
+            <tfoot>
+
+            </tfoot>
+            <tr>
+              <td>2015-2017</td>
+              <td>Attorney at Law at Gündüz Law Office</td>
+            </tr>
+            <tr>
+              <td>2017-2021</td>
+              <td>Attorney at Law and Trademark Attorney at SIMAJ Patent Consultancy Ltd.</td>
+            </tr>
+            <tr>
+              <td>2021-</td>
+              <td>Attorney at Law, Head of Contracts and Intellectual Property at Tunca Attorney Partnership</td>
+            </tr>
+        </table>
+        <hr>
+        <h3>Skills</h3>
+
+        <table border="1" cellspacing="10">
+          <tr>
+            <td>
+              <table>
+                <tr>
+                  <td>Contract Law</td>
+                  <td>⭐⭐⭐⭐⭐</td>
+                  <tr />
+                <tr>
+                  <td>Intellectual Property</td>
+                  <td>⭐⭐⭐⭐⭐</td>
+                </tr>
+                <tr>
+                  <td>HTML</td>
+                  <td>⭐</td>
+                </tr>
+              </table>
+            </td>
+            <td>
+              <table>
+                <tr>
+                  <td>Legal Research</td>
+                  <td>⭐⭐⭐⭐⭐</td>
+                </tr>
+                <tr>
+                  <td>Trademark Litigation</td>
+                  <td>⭐⭐⭐⭐⭐</td>
+                </tr>
+                <tr>
+                  <td>Web Development</td>
+                  <td>⭐</td>
+                </tr>
+              </table>
+
+            </td>
+
+        </table>
+        <hr>
+        <a href="hobbies.html">My Hobbies</a>
+        <br>
+        <a href="contact-me.html">Contact Me</a>
+
+
+    </body>
+
+  </html>
